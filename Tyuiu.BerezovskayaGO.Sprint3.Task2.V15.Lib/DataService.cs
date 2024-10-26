@@ -8,7 +8,7 @@ namespace Tyuiu.BerezovskayaGO.Sprint3.Task2.V15.Lib
             double sumSeries = 0;
             do
             {
-                sumSeries = sumSeries + ((Math.Pow(value, startValue) + 1/2) * Math.Cos(startValue));
+                sumSeries = sumSeries + ((Math.Pow(value, startValue) + 1.0/2) * Math.Cos(startValue));
                 startValue++;
             } while (startValue <= stopValue);
             return Math.Round(sumSeries, 3);

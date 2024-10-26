@@ -15,7 +15,7 @@ namespace Tyuiu.BerezovskayaGO.Sprint3.Task2.V15.Test
 
             double res = ds.GetSumSeries(value, startValue, stopValue);
 
-            double wait = 0.028;
+            double wait = 0.298;
 
             Assert.AreEqual(wait, res);
         }
