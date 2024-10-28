@@ -9,7 +9,7 @@ namespace Tyuiu.BerezovskayaGO.Sprint3.Task5.V4.Test
         {
             DataService ds = new DataService();
 
-            int x = 5;
+            double x = 5.0;
             int startValue1 = 1;
             int stopValue1 = 3;
             int startValue2 = 1;
@@ -17,7 +17,7 @@ namespace Tyuiu.BerezovskayaGO.Sprint3.Task5.V4.Test
 
             double res = ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
 
-            double wait = 360.909;
+            double wait = 3328.185;
 
             Assert.AreEqual(wait, res);
         }

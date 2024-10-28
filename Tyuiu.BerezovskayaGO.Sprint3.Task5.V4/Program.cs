@@ -23,7 +23,7 @@ namespace Tyuiu.BerezovskayaGO.Sprint3.Task5.V4
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                         *");
             Console.WriteLine("********************************************************************************************");
 
-            int x = 5;
+            double x = 5.0;
             int startValue1 = 1;
             int stopValue1 = 3;
             int startValue2 = 1;

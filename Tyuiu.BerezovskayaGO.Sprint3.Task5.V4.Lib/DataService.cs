@@ -3,7 +3,7 @@ namespace Tyuiu.BerezovskayaGO.Sprint3.Task5.V4.Lib
 {
     public class DataService : ISprint3Task5V4
     {
-        public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
+        public double GetSumSumSeries(double x, int startValue1, int startValue2, int stopValue1, int stopValue2)
         {
             double sumSeries = 0;
             int i, j;
